@@ -1,0 +1,82 @@
+img{
+  width: 200px;
+  height: 50px;
+}
+.Appbar{
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.2);
+  transition: 0.3s;
+  background-color: blue;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  vertical-align: bottom;
+}
+
+.Appbar input{
+  box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.2);
+  transition: 0.3s;
+  height: 20px;
+  padding: 4px;
+  margin-top: 10px;
+  width: 30%;
+  background-color: rgba(187, 206, 243, 0.856);
+  border: none;
+  color: aliceblue;
+  font-size: large;
+  text-align: center;
+  text-size-adjust: 10px;
+  font-size: 20px;
+
+}
+.Appbar input:hover{
+  background-color: rgba(225, 235, 255, 0.856);
+}
+
+.Appbar button{
+  background-color: blue;
+  border: none;
+  width: 100px;
+  height: 30px;
+  box-shadow: black;
+  transition: 0.3s;
+  margin-left: 10px;
+  color: white;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 0px;
+
+}
+
+.Appbar button:hover{
+  background-color: rgb(29, 40, 143);
+}
+
+
+tbody button{
+  color: white;
+  background-color: blue;
+  border-radius: 8px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+}
+
+.icon {
+  padding: 0px;
+  color: white;
+  width: 60px;
+  height: 40px;
+  font-size: 50px;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 30px;
+
+}
+.s{
+  position:absolute;
+  margin-top: 10px;
+  margin-left:42px ;
+  font-size: 30px;
+}
